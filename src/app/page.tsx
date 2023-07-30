@@ -1,5 +1,5 @@
-export default function Home() {
-  return (
-    <main>Hello world</main>
-  )
+import Button from "@/components/ui/Button";
+
+export default async function Home() {
+  return <Button variant='ghost'>Click me</Button>
 }
